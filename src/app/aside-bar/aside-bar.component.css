@@ -11,3 +11,19 @@ li {
 .video-info-container {
     margin: 10px 20px;
 }
+
+.video-info-container .btn {
+    color: deepskyblue;
+    background-color: #222;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+
+.video-info-container .btn:hover {
+    background-color: rgba(0, 191, 255, 0.151);
+    border: 1px solid rgba(0, 191, 255, 0.151);
+} 
