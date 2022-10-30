@@ -6,13 +6,17 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavComponent } from './nav/nav.component';
 import { VideoDisplayComponent } from './video-display/video-display.component';
 import { VideoDisplayDetailsComponent } from './video-display/video-display-details/video-display-details.component';
+import { AsideBarComponent } from './aside-bar/aside-bar.component';
+import { VideoRecComponent } from './aside-bar/video-rec/video-rec.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     VideoDisplayComponent,
-    VideoDisplayDetailsComponent
+    VideoDisplayDetailsComponent,
+    AsideBarComponent,
+    VideoRecComponent
   ],
   imports: [
     BrowserModule,

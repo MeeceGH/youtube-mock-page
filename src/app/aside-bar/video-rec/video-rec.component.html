@@ -1,0 +1,10 @@
+<div class="video-info" *ngIf="videoInfo">
+    <a href="#"><img [src]="videoInfo.url" [alt]="videoInfo.alt"></a>
+    <div class="details">
+        <h5><a href="#">{{ videoInfo.title }}</a></h5>
+        <div class="details-additional">
+            <a href="#">{{ videoInfo.author }}</a>
+            <small>{{ videoInfo.views }} views - {{ videoInfo.time }}</small>
+        </div>
+    </div>
+</div>
