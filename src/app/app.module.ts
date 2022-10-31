@@ -8,6 +8,7 @@ import { VideoDisplayComponent } from './video-display/video-display.component';
 import { VideoDisplayDetailsComponent } from './video-display/video-display-details/video-display-details.component';
 import { AsideBarComponent } from './aside-bar/aside-bar.component';
 import { VideoRecComponent } from './aside-bar/video-rec/video-rec.component';
+import { CommentSectionComponent } from './comment-section/comment-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { VideoRecComponent } from './aside-bar/video-rec/video-rec.component';
     VideoDisplayComponent,
     VideoDisplayDetailsComponent,
     AsideBarComponent,
-    VideoRecComponent
+    VideoRecComponent,
+    CommentSectionComponent
   ],
   imports: [
     BrowserModule,
