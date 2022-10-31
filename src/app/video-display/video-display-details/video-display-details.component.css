@@ -123,3 +123,29 @@
     justify-content: space-between;
     margin-top: 10px;
 }
+
+@media (min-width: 950px) {
+    .mobile-view {
+        display: none;
+    }
+
+    .display-info-container .video-info {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .video-info .right-info {
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+
+    .video-info .right-info .share-btn,
+    .video-info .right-info .more-btn {
+        margin-left: 8px;
+    }
+
+    .video-info .left-info {
+        width: 100%;
+    }
+}
